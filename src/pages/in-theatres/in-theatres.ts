@@ -3,13 +3,6 @@ import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angu
 import { MovieServiceProvider } from '../../providers/movie-service/movie-service';
 
 
-/**
- * Generated class for the InTheatresPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-in-theatres',
