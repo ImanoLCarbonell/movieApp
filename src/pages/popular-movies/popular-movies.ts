@@ -2,12 +2,6 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular'; //Import the Modal controller
 import { MovieServiceProvider } from '../../providers/movie-service/movie-service';
 
-/**
- * Generated class for the PopularMoviesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
