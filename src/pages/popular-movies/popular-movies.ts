@@ -36,4 +36,11 @@ export class PopularMoviesPage {
     movieModal.present();
   }
 
+  launchSearchModal(){
+
+    let modal = this.modalCtrl.create('SearchPage');
+    modal.present();
+
+  }
+
 }

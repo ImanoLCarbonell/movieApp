@@ -27,21 +27,16 @@ export class SearchPage {
 
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SearchPage');
+  
   }
 
 
  
   searchMovies(ev: any) {
 
-
-    // set val to the value of the searchbar
     let val = ev.target.value;
 
-      //Calls the searchMovies function from the movies service and stores the response in the results array
       this.movieService.searchMovies(val).subscribe(data=>{
-
-      console.log(data.results);
       this.results = data.results;
     });
      
@@ -50,17 +45,13 @@ export class SearchPage {
   //
   launchMovieDetailsPage(movie){
 
-   //Use the Modal Contoller to launch the movie details page and pass the movie object for the movie chosen by the User
     let movieModal = this.modalCtrl.create('MovieDetailsPage', movie);
-
     movieModal.present();
 
   }
 
    dismiss() {
-    //closes the search modal and returns to the homepage
       this.viewCtrl.dismiss()
- 
   }
 
 
