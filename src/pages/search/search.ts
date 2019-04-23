@@ -3,13 +3,6 @@ import { IonicPage, NavController, NavParams, ModalController, ViewController } 
 import { MovieServiceProvider } from '../../providers/movie-service/movie-service'; //import the movie service
 
 
-/**
- * Generated class for the SearchPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-search',
